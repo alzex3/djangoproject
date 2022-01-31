@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../calorietracker/.idea/calorietracker.iml" filepath="$PROJECT_DIR$/../calorietracker/.idea/calorietracker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/myproject.iml" filepath="$PROJECT_DIR$/.idea/myproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/djangoproject.iml" filepath="$PROJECT_DIR$/.idea/djangoproject.iml" />
     </modules>
   </component>
 </project>

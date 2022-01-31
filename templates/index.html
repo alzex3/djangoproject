@@ -43,7 +43,17 @@
                     </form>
 
                     <div>
-                        <h1>{{ search }}</h1>
+                    {% if search %}
+
+                        {% for i in search %}
+                            <h3 class="display-8">{{ i.0 }}</h3>
+                            <p>{{ i.1 }}</p>
+                        {% endfor %}
+
+                        {% else %}
+                        <h3 class="display-8">Object not found! Try again!</h3>
+
+                    {% endif %}
                     </div>
 
                 </div>
