@@ -1,8 +1,5 @@
-*/static
-/static
 static/
-static/*
-.venv
-.idea
+.venv/
+.idea/
 **/__pycache__
 
