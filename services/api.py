@@ -1,8 +1,6 @@
 import requests as rq
 import urllib3
 
-from pprint import pprint
-
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
@@ -62,5 +60,3 @@ def get_cad_data(number):
 
     except KeyError:
         return False
-
-# pprint(get_cad_data('52:18:0050135:11'))
