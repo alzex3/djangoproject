@@ -1,3 +1,4 @@
 django
 requests
 urllib3
+gunicorn
